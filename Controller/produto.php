@@ -1,12 +1,12 @@
 <?php
     require 'utils.php';
     require_once '../DAO/conexao.php';
-    require_once '../DAO/usuarioGet.php';
-    require_once '../DAO/usuarioPost.php';
-    require_once '../DAO/usuarioPut.php';
-    require_once '../DAO/usuarioPatch.php';
-    require '../DAO/usuarioDelete.php';
-    require '../Model/Usuario.php';
+    require_once '../DAO/produtoGet.php';
+    require_once '../DAO/produtoPost.php';
+    require_once '../DAO/produtoPut.php';
+    require_once '../DAO/produtoPatch.php';
+    require '../DAO/produtoDelete.php';
+    require '../Model/Produto.php';
     require '../Model/Resposta.php';
 
     $req = $_SERVER;
